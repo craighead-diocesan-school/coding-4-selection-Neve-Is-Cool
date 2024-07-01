@@ -31,7 +31,7 @@ function conversation() {
 }
 
 function age() {
-  let ages = prompt ('How old age you?')
+  let ages = prompt ('How old are you?')
   ages = Number (ages)
  
   if (ages>130) {

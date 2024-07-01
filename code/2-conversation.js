@@ -31,27 +31,23 @@ function conversation() {
 }
 
 function age() {
-  let age = prompt ('How old age you?')
-  age = Number (age)
-
-  if (age>65) {
-    alert ("You are old enough to retire. That's sad :(")
-  } else (age<5) {
-    alert ('You still need supervision when using a computer')
-  } else (age >= 18) {
-    alert ('You are old enough to vote. Yippee')
-  } else { (age !=14) {
-    alert ('You are not the same age as me.')
+  let ages = prompt ('How old age you?')
+  ages = Number (ages)
+ 
+  if (ages>130) {
+      alert ('Your age is invalid. Try again.')
+    }else if (ages<1) {
+      alert ('Your age is invalid. Try again.')
+    }else if (ages>65) {
+      alert ("You are old enough to retire.")
+    }else if (ages<5) {
+      alert ('You still need supervision when using a computer')
+    }else if (ages >= 18) {
+      alert ('You are old enough to vote. Yippee')
+    }else if (ages != 15) {
+      alert ('You are not the same age as me.')
+    }else if (ages == 15) {
+      alert ('You are the same age as me!')
   }
-  }
-
-
-
-
-
-
-
-
-
 
 }

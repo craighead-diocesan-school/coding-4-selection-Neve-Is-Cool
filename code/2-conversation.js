@@ -34,9 +34,7 @@ function age() {
   let ages = prompt ('How old are you?')
   ages = Number (ages)
  
-  if (ages>130) {
-      alert ('Your age is invalid. Try again.')
-    }else if (ages<1) {
+  if (ages>130 && ages>1) {
       alert ('Your age is invalid. Try again.')
     }else if (ages>65) {
       alert ("You are old enough to retire.")

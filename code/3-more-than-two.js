@@ -10,11 +10,13 @@ function moreThanTwo() {
   ans = prompt ('Pick a random number')
   }
 
-  if (ans >2) {
+  const comparisonToTwo = 2
+
+  if (ans >comparisonToTwo) {
     alert ('Did you know that ' + ans + ' is greater than 2.' )
-  } else if (ans<2) {
+  } else if (ans<comparisonToTwo) {
     alert ('Did you know that ' + ans + ' is less than 2.')
-  } else if (ans == 2) {
+  } else if (ans == comparisonToTwo) {
     alert ('Did you know that ' + ans + ' is equal to 2.')
   } else if (ans == 'Stop') {
     alert ('Alright, all you had to do was ask.')

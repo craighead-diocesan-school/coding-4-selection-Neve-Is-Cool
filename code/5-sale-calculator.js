@@ -11,7 +11,9 @@ ogPrice = Number (ogPrice)
 let disPercent = prompt ('And what is the discount percentage?')
 disPercent = Number (disPercent)
 
-price = ogPrice / 100 * disPercent
+const outOfOneHundred = 100
+
+price = ogPrice / outOfOneHundred * disPercent
 
 ans = ogPrice - price
 
